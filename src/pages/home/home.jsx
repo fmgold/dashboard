@@ -4,6 +4,7 @@ import NavBar from '../../components/navbar/NavBar'
 import Widget from '../../components/Widget/widget'
 import Feature from '../../components/featured/Feature'
 import Chart from '../../components/chart/Chart'
+import Table from '../../components/table/Table'
 
 const home = () => {
   return (
@@ -23,6 +24,7 @@ const home = () => {
             </div>
             <div className="listContainer">
               <div className="listTitle">Latest Transaction</div>
+              <Table/>
             </div>
         </div>
     </div>
