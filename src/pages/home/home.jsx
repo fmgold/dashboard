@@ -7,6 +7,11 @@ import Chart from '../../components/chart/Chart'
 import Table from '../../components/table/Table'
 
 const home = () => {
+  // let ArrayName = ["spiderman", "acquaman", "batman", "thor", "captain america","superman", "wander", "xmen"]
+  // let numArr = [22,12,43,53,3,2,56,69,56,98]
+  // let arraySort = ArrayName.concat(numArr);
+  // arraySort.sort();
+  // console.log(arraySort);
   return (
     <div className='home'>
         <SideBar/>
